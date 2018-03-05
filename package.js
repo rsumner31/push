@@ -70,6 +70,8 @@ Package.onUse(function(api) {
 
   api.use('mongo', 'server');
 
+  api.use('mongo', 'server');
+
   // API's
   api.addFiles('lib/client/browser.js', 'web.browser');
   api.addFiles('lib/server/push.api.js', 'server');
