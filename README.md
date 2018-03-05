@@ -56,6 +56,9 @@ Some of the documentation is outdated, please file an issue or create a pull req
 
 Watch the project [progress](https://github.com/raix/push/projects/1) for status or join development
 
+Note:
+Version 3 uses the cordova npm plugin [phonegap-plugin-push](https://github.com/phonegap/phonegap-plugin-push#pushnotificationinitoptions)
+
 ## Config
 
 Use the `Push.Configure` function on client and server.
