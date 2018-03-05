@@ -42,6 +42,7 @@ Package.registerBuildPlugin({
   }
 });
 
+
 Package.onUse(function(api) {
   api.versionsFrom('1.2');
   api.use(['ecmascript']);
@@ -79,6 +80,8 @@ Package.onUse(function(api) {
   api.addFiles([
     'lib/common/notifications.js'
   ], ['client', 'server']);
+
+  api.use('mongo', 'server');
 
   api.use('mongo', 'server');
 
